@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(light.jfif) no-repeat;
+	background-size: cover;
+	height: 30vh;
+}
+
+.navbar{
+	position:fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+    border-radius: 100%;
+    float: left;
+    
+}
+.navbar ul{
+	float:left;
+	margin-right: 20px;
+    
+}
+.navbar ul li{
+	list-style: none;
+	margin: 80px;
+	display:contents;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background:orange;
+	border-radius: 2px;
+}
+ .wrapper.center{
+	position:absolute ;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+
+.center h2{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align:center;
+}
+.center .buttons{
+	margin: 35px 280px;
+    align-items: center;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .Register{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+.h1{
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.Science{
+     width: 25%;
+    min-width: 350px;
+    height: available;
+    min-height: 400px;
+    float: left;
+     text-align: center;
+    border-collapse: collapse;
+}
+.Commerce{
+    width: 50%;
+   min-width: 350px;
+   height: available;
+   min-height: 400px;
+   float: left;
+  text-align: center;
+   border-collapse: collapse;
+}
+.Art{
+     width: available;
+    height: available;
+    position: relative;
+    margin-left: 30%;
+    text-align: center;
+    border-collapse: collapse;
+}
+ul{
+    line-height: 2;
+   
+}
+.Others {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+li{
+    text-decoration-color: brown;
+}
+.header{
+    margin-bottom: 20px;
+}
+.navbar .fa{
+    margin-right: 8px;
+}
